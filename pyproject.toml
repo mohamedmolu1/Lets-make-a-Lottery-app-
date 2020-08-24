@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "lets-make-a-lottery-app"
+version = "0.1.0"
+[tool.poetry.dependencies]
+python = "^3.8"
+rand = "^0.3.0"
+random-profile = "^0.0.5"
+traffic-intersection = "^0.1.6"
+[tool.poetry.dev-dependencies]
